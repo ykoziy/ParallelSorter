@@ -13,7 +13,7 @@ Files Included:
 
 	README.txt
 	Makefile
-    myRecordDef.h - header file which defines struct of each record
+    	myRecordDef.h - header file which defines struct of each record
 	qSort.c - implements quick sort.
 	bSort.c - implements bubble sort.
 	sSort.c - implements shell sort.
