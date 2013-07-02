@@ -33,7 +33,7 @@ Use Instruction:
 	attribute specifies on which attribute to sort the file.
 	
 	Possible ranges for the parameters:
-		-ddepth (1-6) -attribute (0-3) 0-ssn, 1-first name, 2-last name, 3-income
+		-depth (1-6) -attribute (0-3) 0-ssn, 1-first name, 2-last name, 3-income
 
 Known bugs/issues:
 	NONE
