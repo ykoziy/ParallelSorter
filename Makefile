@@ -21,7 +21,7 @@ smnode: smnode.o
 smnode.o: smnode.c myRecordDef.h
 
 mysortapp: mysortapp.o
-mysortapp.o: mysortapp.c
+mysortapp.o: mysortapp.c myRecordDef.h
 
 clean:	
 	rm -rf *o
