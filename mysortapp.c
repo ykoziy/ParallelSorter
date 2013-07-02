@@ -19,7 +19,7 @@
 
 typedef struct{
     char *depth;
-	char *file_name;
+    char *file_name;
     char *attrib;
 } args;
 
@@ -95,7 +95,12 @@ int process_c_args(int argc, char *argv[], args *list)
     {
         printf("No arguments provided\n");
         printf("./mysortapp -d DepthOfBinTree(1-6) -f FileName -a AttributeNumber(0-3)\n");
-        return 1;
+        return -1;
+    } else if(argc != 7)
+    {
+	printf("Not enough arguments provided\n");
+	printf("./mysortapp -d DepthOfBinTree(1-6) -f FileName -a AttributeNumber(0-3)\n");
+	return -1;
     }
     while((c = getopt (argc, argv, "d:f:a:")) != -1)
     {
