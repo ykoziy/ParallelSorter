@@ -1,7 +1,8 @@
 Yuriy Koziy
-yuk30@pitt.edu
-CS1550
-Project 1: Parallel Sorting
+yuriykoziy@hotmail.com
+
+
+Parallel Sorter
 
 Description:
 
