@@ -1,6 +1,4 @@
 Yuriy Koziy
-yuriykoziy@hotmail.com
-
 
 Parallel Sorter
 
